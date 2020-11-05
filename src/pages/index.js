@@ -1,8 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Input, Button, Text, Image, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { Override, Formspree, StackItem, SocialMedia, Stack, Section } from "@quarkly/components";
+import { Section, Override, StackItem, Formspree, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -12,7 +13,13 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section background="#0E1317" padding="50px 0 50px 0">
+		<Components.EmbedHTML />
+		<Section padding="120px 0 100px 0" background="rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(14, 19, 23) 0%, rgb(34, 38, 46) 100%) repeat scroll 0% 0% / auto padding-box border-box">
+			<Text font="normal 700 38px/1.2 --fontFamily-googleSourceSansPro" color="#ffffff" text-align="center">
+				Евангилиста продукта, который станет нашей частью на фул тайм или халф тайм, и сможет полюбить кваркли так как его любим мы, и выстраоить отношения с професиональным сообществом
+			</Text>
+		</Section>
+		<Section padding="30px 0 30px 0" background="--color-darkL1">
 			<Stack>
 				{"    "}{"    "}
 				<StackItem width="50%" display="flex" flex-direction="column" padding="16px 0px 16px 16px">
@@ -23,9 +30,40 @@ export default (() => {
 						padding="36px 36px"
 						border-radius="12px"
 						align-items="center"
+						justify-content="center"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex-direction="column" padding="16px 0px 16px 16px">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#22262E"
+						padding="26px 26px 26px 26px"
+						border-radius="12px"
+						align-items="center"
 					/>
 					{"        "}
-					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="https://formspree.io/f/xeqpgrlv" width="70%">
+					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="https://formspree.io/f/mpzypyye" width="70%">
+						<Input
+							display="flex"
+							flex-direction="column"
+							margin="0px 4px 20px 0px"
+							type="text"
+							border-radius="8px"
+							border-width="1px"
+							width="100%"
+							height="50px"
+							placeholder="NAME"
+							border-color="--color-light"
+							background="rgba(255, 255, 255, 0)"
+							border-style="solid"
+							color="#ffffff"
+							font="normal 300 16px/1.5 --fontFamily-sans"
+							letter-spacing=".8PX"
+							hover-border-color="#66FFE4"
+							name="NAME"
+						/>
 						<Input
 							name="EMAIL"
 							display="flex"
@@ -36,30 +74,32 @@ export default (() => {
 							border-width="1px"
 							width="100%"
 							height="50px"
-							placeholder="✉ EMAIL"
+							placeholder="EMAIL"
 							border-color="--color-light"
 							background="rgba(255, 255, 255, 0)"
 							border-style="solid"
 							color="#ffffff"
 							font="normal 300 16px/1.5 --fontFamily-sans"
-							letter-spacing="0.3PX"
+							letter-spacing=".8PX"
 							hover-border-color="#66FFE4"
+							required
 						/>
 						<Input
 							name="Phone"
 							display="flex"
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
-							type="tel"
+							type="text"
 							border-radius="8px"
 							border-width="1px"
 							width="100%"
 							height="50px"
-							placeholder="☎ PHONE"
 							background="rgba(255, 255, 255, 0)"
 							hover-border-color="#66FFE4"
 							color="#ffffff"
 							required
+							letter-spacing=".8PX"
+							placeholder="TELEGRAM"
 						/>
 						<Input
 							name="Email"
@@ -79,6 +119,7 @@ export default (() => {
 							background="rgba(255, 255, 255, 0)"
 							hover-border-color="#66FFE4"
 							color="#ffffff"
+							letter-spacing=".8PX"
 						/>
 						<Button
 							display="flex"
@@ -116,41 +157,13 @@ export default (() => {
 					</Formspree>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" flex-direction="column">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="#22262E"
-						padding="36px 36px"
-						border-radius="12px"
-						align-items="center"
-						justify-content="center"
-					/>
-					<Image width="100px" height="90px" src="https://image.flaticon.com/icons/svg/684/684927.svg" margin="0px 0px 10px 0px" />
-					<Text color="#ffffff" font="700 40px --fontFamily-googleSourceSansPro" letter-spacing="4px" margin="16px 0px 10px 0px">
-						CONTACT US
-					</Text>
-					<Box margin="0px 0px 30px 0px">
-						<Text font="500 30px --fontFamily-googleSourceSansPro" color="#ffffff">
-							<Link href="malito:ADMIN@QUARKLY.COM" color="#66FFE4" text-decoration-line="initial" hover-text-decoration-line="underline">
-								ADMIN@QUARKLY.COM{" "}
-							</Link>
-						</Text>
-					</Box>
-					<SocialMedia
-						facebook="https://www.facebook.com/quarklyapp/"
-						twitter="https://twitter.com/quarklyapp"
-						youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
-						vkontakte="https://vk.com/quarklyapp"
-						telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
-					>
-						<Override slot="icon" color="#66FFE4" />
-						<Override slot="link" background="rgba(237, 242, 246, 0)" hover-background="rgba(237, 242, 246, 0)" />
-					</SocialMedia>
-					{"        "}{"    "}
-				</StackItem>
 			</Stack>
 		</Section>
+		<Components.Footer padding="14px 0 15px 0">
+			<Override slot="text">
+				© All Rights Reserved
+			</Override>
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
