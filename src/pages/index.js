@@ -58,6 +58,7 @@ export default (() => {
 							placeholder="☎ PHONE"
 							background="rgba(255, 255, 255, 0)"
 							hover-border-color="#66FFE4"
+							color="#ffffff"
 						/>
 						<Input
 							name="Email"
@@ -76,6 +77,7 @@ export default (() => {
 							border-color="--color-light"
 							background="rgba(255, 255, 255, 0)"
 							hover-border-color="#66FFE4"
+							color="#ffffff"
 						/>
 						<Button
 							display="flex"
