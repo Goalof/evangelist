@@ -25,7 +25,7 @@ export default (() => {
 						align-items="center"
 					/>
 					{"        "}
-					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="{   constructor(props) {     super(props);     this.submitForm = this.submitForm.bind(this);     this.state = {       status: &quot;&quot;     };   }    render() {     const { status } = this.state;     return (       <form         onSubmit={this.submitForm}         action=&quot;https://formspree.io/xvowynqa&quot;         method=&quot;POST&quot;       >         <!-- add your custom form HTML here -->         <label>Email:</label>         <input type=&quot;email&quot; name=&quot;email&quot; />         <label>Message:</label>         <input type=&quot;text&quot; name=&quot;message&quot; />         {status === &quot;SUCCESS&quot; ? <p>Thanks!</p> : <button>Submit</button>}         {status === &quot;ERROR&quot; && <p>Ooops! There was an error.</p>}       </form>     );   }    submitForm(ev) {     ev.preventDefault();     const form = ev.target;     const data = new FormData(form);     const xhr = new XMLHttpRequest();     xhr.open(form.method, form.action);     xhr.setRequestHeader(&quot;Accept&quot;, &quot;application/json&quot;);     xhr.onreadystatechange = () => {       if (xhr.readyState !== XMLHttpRequest.DONE) return;       if (xhr.status === 200) {         form.reset();         this.setState({ status: &quot;SUCCESS&quot; });       } else {         this.setState({ status: &quot;ERROR&quot; });       }     };     xhr.send(data);   } }" width="70%">
+					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="xeqpgrlv" width="70%">
 						<Input
 							name="EMAIL"
 							display="flex"
