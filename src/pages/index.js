@@ -129,7 +129,7 @@ export default (() => {
 					</Text>
 					<Box margin="0px 0px 30px 0px">
 						<Text font="500 30px --fontFamily-googleSourceSansPro" color="#ffffff">
-							<Link href="malito:ADMIN@QUARKLY.COM" color="#66FFE4" text-decoration-line="initial">
+							<Link href="malito:ADMIN@QUARKLY.COM" color="#66FFE4" text-decoration-line="initial" hover-text-decoration-line="underline">
 								ADMIN@QUARKLY.COM
 							</Link>
 						</Text>
@@ -142,7 +142,7 @@ export default (() => {
 						telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
 					>
 						<Override slot="icon" color="#66FFE4" />
-						<Override slot="link" background="rgba(237, 242, 246, 0)" />
+						<Override slot="link" background="rgba(237, 242, 246, 0)" hover-background="rgba(237, 242, 246, 0)" />
 					</SocialMedia>
 					{"        "}{"    "}
 				</StackItem>
