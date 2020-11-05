@@ -25,7 +25,7 @@ export default (() => {
 						align-items="center"
 					/>
 					{"        "}
-					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="xeqpgrlv" width="70%">
+					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="https://formspree.io/f/xeqpgrlv" width="70%">
 						<Input
 							name="EMAIL"
 							display="flex"
@@ -59,6 +59,7 @@ export default (() => {
 							background="rgba(255, 255, 255, 0)"
 							hover-border-color="#66FFE4"
 							color="#ffffff"
+							required
 						/>
 						<Input
 							name="Email"
@@ -132,7 +133,7 @@ export default (() => {
 					<Box margin="0px 0px 30px 0px">
 						<Text font="500 30px --fontFamily-googleSourceSansPro" color="#ffffff">
 							<Link href="malito:ADMIN@QUARKLY.COM" color="#66FFE4" text-decoration-line="initial" hover-text-decoration-line="underline">
-								ADMIN@QUARKLY.COM
+								ADMIN@QUARKLY.COM{" "}
 							</Link>
 						</Text>
 					</Box>
