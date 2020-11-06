@@ -256,14 +256,6 @@ export default (() => {
 			md-padding="40px 0 60px 0"
 		>
 			<Override slot="SectionContent" text-align="center" color="--light" align-items="center" />
-			<Image
-				width="350px"
-				height="350px"
-				md-width="300px"
-				md-height="300px"
-				src="https://uploads.quarkly.io/landing/q-sheme-logo.svg"
-				margin="0px 0px 40px 0px"
-			/>
 			<Text
 				text-align="center"
 				font="normal 400 70px/61px --fontFamily-sans"
@@ -294,16 +286,7 @@ export default (() => {
 					sm-font="normal 400 30px/0px --fontFamily-sans"
 				/>
 			</Components.Textloop>
-			<Components.Dots
-				position="absolute"
-				top="0px"
-				bottom="0px"
-				left="0px"
-				right="0px"
-			/>
-		</Section>
-		<Section background="linear-gradient(180deg, #0E1317 0%, #22262E 100%)" padding="70px 0 0px 0">
-			<Stack align-items="flex-start">
+			<Stack>
 				<StackItem
 					width="55%"
 					display="flex"
@@ -470,7 +453,7 @@ export default (() => {
 							color="#ffffff"
 							required
 							letter-spacing=".8PX"
-							placeholder="Telegram username"
+							placeholder="Telegram"
 							border-color="#000000"
 							hover-border-width="1px"
 						/>
@@ -500,7 +483,7 @@ export default (() => {
 							display="flex"
 							font="normal 600 18px/1.5 --fontFamily-googleSourceSansPro"
 							letter-spacing="2px"
-							border-radius="50px"
+							border-radius="6px"
 							padding="17px 82px 17px 82px"
 							color="#000000"
 							text-align="center"
@@ -509,10 +492,11 @@ export default (() => {
 							hover-color="#ffffff"
 							transition="all 0.3s ease"
 							background="--color-secondary"
+							width="100%"
 						>
 							SEND
 						</Button>
-						<Text font="16px/23px --fontFamily-googleSourceSansPro" color="rgba(247, 251, 255, 0.68)" width="70%">
+						<Text font="16px/23px --fontFamily-googleSourceSansPro" color="rgba(247, 251, 255, 0.68)" width="100%">
 							By clicking the “SEND” button, you confirm that you have read and agree to the{" "}
 							<Link
 								href="https://quarkly.io/contest-terms"
@@ -532,6 +516,13 @@ export default (() => {
 				</StackItem>
 				{"        "}
 			</Stack>
+			<Components.Dots
+				position="absolute"
+				top="0px"
+				bottom="0px"
+				left="0px"
+				right="0px"
+			/>
 		</Section>
 		<Section
 			text-align="left"
@@ -543,7 +534,7 @@ export default (() => {
 			md-padding-bottom="50px"
 			padding-bottom="60px"
 			padding-top="60px"
-			background="#22262E"
+			background="linear-gradient(180deg, #0E1317 0%, #22262E 100%)"
 		>
 			{" "}
 			<Text
