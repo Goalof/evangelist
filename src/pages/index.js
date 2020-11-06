@@ -407,7 +407,13 @@ export default (() => {
 					<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="8px 0px 16px 0px">
 						Мы ждем твоего отклика!
 					</Text>
-					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="xeqpgrlv" width="90%">
+					<Formspree
+						errorMessage="Something went wrong"
+						completeText="Success"
+						endpoint="xeqpgrlv"
+						width="90%"
+						color="#ffffff"
+					>
 						<Input
 							display="flex"
 							flex-direction="column"
