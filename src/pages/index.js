@@ -407,7 +407,7 @@ export default (() => {
 					<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="8px 0px 16px 0px">
 						Мы ждем твоего отклика!
 					</Text>
-					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="https://formspree.io/f/mpzypyye" width="90%">
+					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="xeqpgrlv" width="90%">
 						<Input
 							display="flex"
 							flex-direction="column"
@@ -417,7 +417,7 @@ export default (() => {
 							border-width="0px"
 							width="100%"
 							height="50px"
-							placeholder="NAME"
+							placeholder="Name"
 							border-color="#000000"
 							background="#3F4750"
 							border-style="solid"
@@ -425,11 +425,11 @@ export default (() => {
 							font="normal 300 16px/1.5 --fontFamily-sans"
 							letter-spacing=".8PX"
 							hover-border-color="#66FFE4"
-							name="NAME"
+							name="Name"
 							hover-border-width="1px"
 						/>
 						<Input
-							name="EMAIL"
+							name="Email"
 							display="flex"
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
@@ -438,7 +438,7 @@ export default (() => {
 							border-width="0px"
 							width="100%"
 							height="50px"
-							placeholder="EMAIL"
+							placeholder="Email"
 							border-color="#000000"
 							background="#3F4750"
 							border-style="solid"
@@ -450,7 +450,7 @@ export default (() => {
 							hover-border-width="1px"
 						/>
 						<Input
-							name="Phone"
+							name="Telegram"
 							display="flex"
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
@@ -464,12 +464,12 @@ export default (() => {
 							color="#ffffff"
 							required
 							letter-spacing=".8PX"
-							placeholder="TELEGRAM"
+							placeholder="Telegram username"
 							border-color="#000000"
 							hover-border-width="1px"
 						/>
 						<Input
-							name="Email"
+							name="Message"
 							display="flex"
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
@@ -478,7 +478,7 @@ export default (() => {
 							border-width="0px"
 							width="100%"
 							height="100px"
-							placeholder="✐ COMMENTS"
+							placeholder="Message"
 							align-items="flex-start"
 							justify-content="start"
 							as="textarea"
