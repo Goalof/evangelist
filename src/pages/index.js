@@ -17,8 +17,6 @@ export default (() => {
 		<Components.Popup>
 			<Override slot="button" width="100%" background="#0E1317">
 				Evangelist is wanted 🤗
-
-Evangelist is wanted 🤗{"\n\n"}
 			</Override>
 			<Stack margin="10px 10px 18px 10px" gap="16px">
 				<StackItem
@@ -47,7 +45,7 @@ Evangelist is wanted 🤗{"\n\n"}
 					<Box display="flex" align-items="center" justify-content="flex-start" margin="0px 0px 0px 20px">
 						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-27px 21px 0px 0px" sm-margin="-57px 21px 0px 0px" md-margin="-57px 21px 0px 0px" />
 						<Text font="normal 400 18px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
-							Выстраивает и поддерживает качественные отношения с лидерами и авторитетами ИТ-сообщества.{" \n\n"}
+							Выстраивает и поддерживает качественные отношения с лидерами и авторитетами ИТ-сообщества.{" "}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
@@ -55,7 +53,6 @@ Evangelist is wanted 🤗{"\n\n"}
 						<Text font="normal 400 18px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
 							Продвигает quarkly, нести ценность в массы и создавать великолепный контент.{" "}
 							<br />
-							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
@@ -67,7 +64,7 @@ Evangelist is wanted 🤗{"\n\n"}
 							md-margin="-57px 21px 0px 0px"
 						/>
 						<Text font="normal 400 18px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
-							Принимает активное участие в жизни quarkly через блоги, социальные сети, встречи, конференции, форумы и другие.{"\n\n"}
+							Принимает активное участие в жизни quarkly через блоги, социальные сети, встречи, конференции, форумы и другие.
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
@@ -79,7 +76,7 @@ Evangelist is wanted 🤗{"\n\n"}
 							md-margin="-57px 21px 0px 0px"
 						/>
 						<Text font="normal 400 18px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
-							Коммуницировать с блогерами, журналистами и редакторами тематических сайтов.{"\n\n"}
+							Коммуницировать с блогерами, журналистами и редакторами тематических сайтов.
 						</Text>
 					</Box>
 					{"            "}
@@ -333,7 +330,7 @@ Evangelist is wanted 🤗{"\n\n"}
 					<Box display="flex" align-items="center" justify-content="flex-start" margin="0px 0px 0px 20px">
 						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-27px 21px 0px 0px" sm-margin="-57px 21px 0px 0px" md-margin="-57px 21px 0px 0px" />
 						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
-							Выстраивает и поддерживает качественные отношения с лидерами и авторитетами ИТ-сообщества.{" \n\n"}
+							Выстраивает и поддерживает качественные отношения с лидерами и авторитетами ИТ-сообщества.{" "}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
@@ -341,7 +338,6 @@ Evangelist is wanted 🤗{"\n\n"}
 						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
 							Продвигает quarkly, нести ценность в массы и создавать великолепный контент.{" "}
 							<br />
-							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
@@ -353,7 +349,7 @@ Evangelist is wanted 🤗{"\n\n"}
 							md-margin="-57px 21px 0px 0px"
 						/>
 						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
-							Принимает активное участие в жизни quarkly через блоги, социальные сети, встречи, конференции, форумы и другие.{"\n\n"}
+							Принимает активное участие в жизни quarkly через блоги, социальные сети, встречи, конференции, форумы и другие.
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
@@ -365,7 +361,7 @@ Evangelist is wanted 🤗{"\n\n"}
 							md-margin="-57px 21px 0px 0px"
 						/>
 						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
-							Коммуницировать с блогерами, журналистами и редакторами тематических сайтов.{"\n\n"}
+							Коммуницировать с блогерами, журналистами и редакторами тематических сайтов.
 						</Text>
 					</Box>
 					{"            "}
@@ -611,7 +607,7 @@ Evangelist is wanted 🤗{"\n\n"}
 						sm-font="normal 400 16px/24px --fontFamily-googleSourceSansPro"
 						width="80%"
 					>
-						Молодой, дружный и профессиональный коллектив.{"\n\n"}
+						Молодой, дружный и профессиональный коллектив.
 					</Text>
 				</StackItem>
 				<StackItem width="50%" lg-width="100%" md-width="100%">
@@ -635,7 +631,7 @@ Evangelist is wanted 🤗{"\n\n"}
 						sm-font="normal 400 16px/24px --fontFamily-googleSourceSansPro"
 						width="80%"
 					>
-						«Белая» заработная плата, уровень определяется по результатам собеседования.{"\n\n"}
+						«Белая» заработная плата, уровень определяется по результатам собеседования.
 					</Text>
 				</StackItem>
 				<StackItem width="50%" lg-width="100%" md-width="100%">
