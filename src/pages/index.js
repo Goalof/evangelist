@@ -16,7 +16,7 @@ export default (() => {
 		<Components.EmbedHTML />
 		<Section
 			text-align="left"
-			padding="80px 0 100px 0"
+			padding="60px 0 60px 0"
 			background-image="linear-gradient(0deg, #0E1317 0%, #22262E 100%)"
 			lg-text-align="left"
 			position="relative"
@@ -29,20 +29,42 @@ export default (() => {
 		>
 			<Override slot="SectionContent" text-align="center" color="--light" align-items="center" />
 			<Image
-				width="500px"
-				height="500px"
+				width="350px"
+				height="350px"
 				md-width="300px"
 				md-height="300px"
-				src="https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/contest-results-wreath.svg?v=2020-09-07T13:17:01.317Z"
-				margin="0px 0px 24px 0px"
+				src="https://uploads.quarkly.io/landing/q-sheme-logo.svg"
+				margin="0px 0px 40px 0px"
 			/>
-			<Text text-align="center" font="normal 400 90px/114px --fontFamily-sans" color="#ffffff" margin="16px 0px 0px 0px">
+			<Text
+				text-align="center"
+				font="normal 400 70px/61px --fontFamily-sans"
+				color="#ffffff"
+				margin="16px 0px 0px 0px"
+				lg-font="normal 400 60px/70px --fontFamily-sans"
+				md-font="normal 400 40px/70px --fontFamily-sans"
+				sm-font="normal 400 24px/30px --fontFamily-sans"
+			>
 				Мы ищем в команду Quarkly
 			</Text>
-			<Components.Textloop font="normal 400 90px/114px --fontFamily-sans" slides="IT-Проповедника,IT-Пропагандиста,IT-Evangelista" margin="0px 0px 0px 0px">
+			<Components.Textloop
+				font="normal 400 90px/114px --fontFamily-sans"
+				slides="IT-Проповедника,IT-Пропагандиста,IT-Evangelista"
+				margin="0px 0px 0px 0px"
+				lg-font="normal 400 50px/0px --fontFamily-sans"
+				sm-font="normal 400 21px/0px --fontFamily-sans"
+			>
 				<Override slot="Before Text" display="none" margin="0px 0px 0px 0px" />
 				<Override slot="After Text" display="none" margin="0px 0px 0px 0px" />
-				<Override slot="Looped Text" color="#66FFE4" font="normal 400 90px/114px --fontFamily-sans" margin="0px 0px 0px 0px" />
+				<Override
+					slot="Looped Text"
+					color="#66FFE4"
+					font="normal 400 80px/69px --fontFamily-sans"
+					margin="0px 0px 0px 0px"
+					lg-font="normal 400 70px/0px --fontFamily-sans"
+					md-font="normal 400 50px/0px --fontFamily-sans"
+					sm-font="normal 400 30px/0px --fontFamily-sans"
+				/>
 			</Components.Textloop>
 			<Components.Dots
 				position="absolute"
@@ -60,6 +82,7 @@ export default (() => {
 					flex-direction="column"
 					padding="16px 0px 16px 16px"
 					border-radius="15px"
+					lg-width="100%"
 				>
 					<Override
 						slot="StackItemContent"
@@ -72,40 +95,45 @@ export default (() => {
 					/>
 					<Box width="100%" display="flex" align-items="center" margin="0px 0px 30px 0px">
 						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(8).svg?v=2020-11-06T00:37:40.225Z" />
-						<Text margin="0px 0px 0px 36px" font="normal 400 44px/66px --fontFamily-sans" color="#ffffff">
+						<Text margin="0px 0px 0px 36px" font="normal 400 44px/66px --fontFamily-sans" color="#ffffff" sm-font="normal 500 26px/30px --fontFamily-sans">
 							Что нужно делать?
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="flex-start" margin="0px 0px 0px 20px">
-						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-27px 21px 0px 0px" />
-						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff">
-							Выстраивает и поддерживает качественные отношения с лидерами и авторитетами ИТ-сообщества.{" "}
-							<br />
+						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-27px 21px 0px 0px" sm-margin="-57px 21px 0px 0px" md-margin="-57px 21px 0px 0px" />
+						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
+							Выстраивает и поддерживает качественные отношения с лидерами и авторитетами ИТ-сообщества.{" \n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
-						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="3px 21px 0px 0px" width="16px" />
-						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="0ppx 0px 16px 0px">
-							Продвигает Quarkly, нести ценность в массы.{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
-						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="3px 21px 0px 0px" width="16px" />
-						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="0ppx 0px 16px 0px">
-							Создавать великолепный контент.{" \n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
-						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-58px 21px 0px 0px" width="16px" />
-						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="0ppx 0px 16px 0px">
-							Принимает активное участие в жизни quarkly через блоги, социальные сети, встречи, конференции, форумы и другие мероприятия.{" "}
+						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-27px 21px 0px 0px" width="16px" sm-margin="-58px 21px 0px 0px" />
+						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
+							Продвигает quarkly, нести ценность в массы и создавать великолепный контент.{" "}
 							<br />
 							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
-						<Image src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z" margin="-27px 21px 0px 0px" width="16px" />
-						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="0ppx 0px 16px 0px">
+						<Image
+							src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z"
+							margin="-27px 21px 0px 0px"
+							width="16px"
+							sm-margin="-88px 21px 0px 0px"
+							md-margin="-57px 21px 0px 0px"
+						/>
+						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
+							Принимает активное участие в жизни quarkly через блоги, социальные сети, встречи, конференции, форумы и другие.{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center" justify-content="center" margin="0px 0px 0px 20px">
+						<Image
+							src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(7).svg?v=2020-11-06T00:32:44.685Z"
+							margin="-27px 21px 0px 0px"
+							width="16px"
+							sm-margin="-57px 21px 0px 0px"
+							md-margin="-57px 21px 0px 0px"
+						/>
+						<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="20px 0px 20px 0px">
 							Коммуницировать с блогерами, журналистами и редакторами тематических сайтов.{"\n\n"}
 						</Text>
 					</Box>
@@ -117,6 +145,7 @@ export default (() => {
 					flex-direction="column"
 					padding="16px 0px 16px 16px"
 					border-radius="15px"
+					lg-width="100%"
 				>
 					<Override
 						slot="StackItemContent"
@@ -138,12 +167,12 @@ export default (() => {
 						<Image
 							width="64px"
 							height="64px"
-							src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Group%20(25).svg?v=2020-11-05T23:46:00.699Z"
-							background="#FFFFFF"
+							src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Group%20(26).svg?v=2020-11-06T01:01:26.395Z"
 							border-radius="50%"
 							padding="10px 10px 10px 10px"
+							background="#FFFFFF"
 						/>
-						<Text margin="-5px 0px 0px 36px" font="normal 400 44px/66px --fontFamily-sans" color="#ffffff">
+						<Text margin="-5px 0px 0px 36px" font="normal 400 44px/66px --fontFamily-sans" color="#ffffff" sm-font="normal 500 26px/30px --fontFamily-sans">
 							Обратная связь
 						</Text>
 					</Box>
@@ -156,8 +185,8 @@ export default (() => {
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
 							type="text"
-							border-radius="8px"
-							border-width="1px"
+							border-radius="6px"
+							border-width="0px"
 							width="100%"
 							height="50px"
 							placeholder="NAME"
@@ -169,6 +198,7 @@ export default (() => {
 							letter-spacing=".8PX"
 							hover-border-color="#66FFE4"
 							name="NAME"
+							hover-border-width="1px"
 						/>
 						<Input
 							name="EMAIL"
@@ -176,8 +206,8 @@ export default (() => {
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
 							type="email"
-							border-radius="8px"
-							border-width="1px"
+							border-radius="6px"
+							border-width="0px"
 							width="100%"
 							height="50px"
 							placeholder="EMAIL"
@@ -189,6 +219,7 @@ export default (() => {
 							letter-spacing=".8PX"
 							hover-border-color="#66FFE4"
 							required
+							hover-border-width="1px"
 						/>
 						<Input
 							name="Phone"
@@ -196,8 +227,8 @@ export default (() => {
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
 							type="text"
-							border-radius="8px"
-							border-width="1px"
+							border-radius="6px"
+							border-width="0px"
 							width="100%"
 							height="50px"
 							background="#3F4750"
@@ -207,6 +238,7 @@ export default (() => {
 							letter-spacing=".8PX"
 							placeholder="TELEGRAM"
 							border-color="#000000"
+							hover-border-width="1px"
 						/>
 						<Input
 							name="Email"
@@ -214,10 +246,10 @@ export default (() => {
 							flex-direction="column"
 							margin="0px 4px 20px 0px"
 							type="text"
-							border-radius="8px"
-							border-width="1px"
+							border-radius="6px"
+							border-width="0px"
 							width="100%"
-							height="120px"
+							height="100px"
 							placeholder="✐ COMMENTS"
 							align-items="flex-start"
 							justify-content="start"
@@ -227,16 +259,17 @@ export default (() => {
 							hover-border-color="#66FFE4"
 							color="#ffffff"
 							letter-spacing=".8PX"
+							hover-border-width="1px"
+							padding="10px 16px 6px 16px"
 						/>
 						<Button
 							display="flex"
 							font="normal 600 18px/1.5 --fontFamily-googleSourceSansPro"
 							letter-spacing="2px"
-							border-radius="8px"
-							padding="11px 42px"
+							border-radius="50px"
+							padding="17px 82px 17px 82px"
 							color="#000000"
 							text-align="center"
-							width="100%"
 							justify-content="center"
 							hover-background="#000000"
 							hover-color="#ffffff"
@@ -245,7 +278,7 @@ export default (() => {
 						>
 							SEND
 						</Button>
-						<Text font="12px --fontFamily-googleSourceSansPro" color="--light" text-align="center">
+						<Text font="16px/23px --fontFamily-googleSourceSansPro" color="rgba(247, 251, 255, 0.68)" width="60%">
 							By clicking the “SEND” button, you confirm that you have read and agree to the{" "}
 							<Link
 								href="https://quarkly.io/contest-terms"
@@ -268,7 +301,7 @@ export default (() => {
 		</Section>
 		<Section
 			text-align="left"
-			padding="100px 0"
+			padding="60px 0 130px 0"
 			background-color="--light"
 			font-weight="300"
 			position="relative"
@@ -284,7 +317,7 @@ export default (() => {
 				font="normal 600 42px/1.2 --fontFamily-googleSourceSansPro"
 				margin="4px 0 48px 0"
 				color="--light"
-				sm-font="--h2Sm"
+				sm-font="normal 600 42px/1.2 --fontFamily-googleSourceSansPro"
 				sm-margin-bottom="24px"
 			>
 				<Span
@@ -319,7 +352,7 @@ export default (() => {
 						color="--light"
 						margin="24px 0 0 0"
 						padding-right="36px"
-						sm-font="--baseSm"
+						sm-font="normal 400 16px/24px --fontFamily-googleSourceSansPro"
 						width="80%"
 					>
 						Full-time или Half-time занятость, которая основывается полностью на вашем выборе
@@ -343,7 +376,7 @@ export default (() => {
 						color="--light"
 						margin="24px 0 0 0"
 						padding-right="36px"
-						sm-font="--baseSm"
+						sm-font="normal 400 16px/24px --fontFamily-googleSourceSansPro"
 						width="80%"
 					>
 						Молодой, дружный и профессиональный коллектив.{"\n\n"}
@@ -367,7 +400,7 @@ export default (() => {
 						color="--light"
 						margin="24px 0 0 0"
 						padding-right="36px"
-						sm-font="--baseSm"
+						sm-font="normal 400 16px/24px --fontFamily-googleSourceSansPro"
 						width="80%"
 					>
 						«Белая» заработная плата, уровень определяется по результатам собеседования.{"\n\n"}
@@ -391,7 +424,7 @@ export default (() => {
 						color="--light"
 						margin="24px 0 0 0"
 						padding-right="36px"
-						sm-font="--baseSm"
+						sm-font="normal 400 16px/24px --fontFamily-googleSourceSansPro"
 						width="80%"
 					>
 						Все возможности для профессионального роста и развития. (конференции, обучение).
