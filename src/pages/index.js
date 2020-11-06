@@ -74,8 +74,8 @@ export default (() => {
 				right="0px"
 			/>
 		</Section>
-		<Section background="linear-gradient(180deg, #0E1317 0%, #22262E 100%)" padding="70px 0 70px 0">
-			<Stack>
+		<Section background="linear-gradient(180deg, #0E1317 0%, #22262E 100%)" padding="70px 0 0px 0">
+			<Stack align-items="flex-start">
 				<StackItem
 					width="55%"
 					display="flex"
@@ -93,9 +93,9 @@ export default (() => {
 						border-radius="12px"
 						justify-content="flex-start"
 					/>
-					<Box width="100%" display="flex" align-items="center" margin="0px 0px 30px 0px">
+					<Box width="100%" display="flex" align-items="center" margin="0px 0px 20px 0px">
 						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f37f93e5f5c20001ea9c99e/images/Vector%20(8).svg?v=2020-11-06T00:37:40.225Z" />
-						<Text margin="0px 0px 0px 36px" font="normal 400 44px/66px --fontFamily-sans" color="#ffffff" sm-font="normal 500 26px/30px --fontFamily-sans">
+						<Text margin="2px 0px 0px 36px" font="normal 400 38px/66px --fontFamily-sans" color="#ffffff" sm-font="normal 500 26px/30px --fontFamily-sans">
 							Что нужно делать?
 						</Text>
 					</Box>
@@ -151,7 +151,7 @@ export default (() => {
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#22262E"
-						padding="26px 20px 26px 20px"
+						padding="26px 36px 26px 36px"
 						align-items="center"
 						border-radius="12px"
 						justify-content="center"
@@ -172,12 +172,12 @@ export default (() => {
 							padding="10px 10px 10px 10px"
 							background="#FFFFFF"
 						/>
-						<Text margin="-5px 0px 0px 36px" font="normal 400 44px/66px --fontFamily-sans" color="#ffffff" sm-font="normal 500 26px/30px --fontFamily-sans">
+						<Text margin="-10px 0px 0px 36px" font="normal 400 38px/66px --fontFamily-sans" color="#ffffff" sm-font="normal 500 26px/30px --fontFamily-sans">
 							Обратная связь
 						</Text>
 					</Box>
-					<Text font="normal 400 25px/37px --fontFamily-googleSourceSansPro" color="#ffffff" margin="0px 0px 16px 0px">
-						Мы ждем твоего отклика.
+					<Text font="normal 400 20px/30px --fontFamily-googleSourceSansPro" color="#ffffff" margin="8px 0px 16px 0px">
+						Мы ждем твоего отклика!
 					</Text>
 					<Formspree errorMessage="Something went wrong" completeText="Success" endpoint="https://formspree.io/f/mpzypyye" width="90%">
 						<Input
@@ -278,7 +278,7 @@ export default (() => {
 						>
 							SEND
 						</Button>
-						<Text font="16px/23px --fontFamily-googleSourceSansPro" color="rgba(247, 251, 255, 0.68)" width="60%">
+						<Text font="16px/23px --fontFamily-googleSourceSansPro" color="rgba(247, 251, 255, 0.68)" width="70%">
 							By clicking the “SEND” button, you confirm that you have read and agree to the{" "}
 							<Link
 								href="https://quarkly.io/contest-terms"
@@ -301,7 +301,7 @@ export default (() => {
 		</Section>
 		<Section
 			text-align="left"
-			padding="60px 0 130px 0"
+			padding="0px 0 70px 0"
 			background-color="--light"
 			font-weight="300"
 			position="relative"
@@ -314,7 +314,7 @@ export default (() => {
 			{" "}
 			<Text
 				as="h2"
-				font="normal 600 42px/1.2 --fontFamily-googleSourceSansPro"
+				font="normal 600 52px/1.2 --fontFamily-googleSourceSansPro"
 				margin="4px 0 48px 0"
 				color="--light"
 				sm-font="normal 600 42px/1.2 --fontFamily-googleSourceSansPro"
@@ -333,7 +333,7 @@ export default (() => {
 				</Span>
 				{" "}работы
 			</Text>
-			<Stack gap="12px">
+			<Stack>
 				<StackItem width="50%" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
