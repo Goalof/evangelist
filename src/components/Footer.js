@@ -359,6 +359,12 @@ const FooterHigh = props => {
 	} = useOverrides(props, overrides, defaultProps);
 	return <Section {...rest}>
 		<Stack {...override("stack")}>
+			<StackItem {...override("stackItem")}>
+				<Image {...override("image")} />
+			</StackItem>
+			<StackItem {...override("stackItem1")}>
+				<Menu {...override("menu")} />
+			</StackItem>
 			<StackItem {...override("stackItem2")}>
 				<Text {...override("text")} />
 			</StackItem>
