@@ -39,9 +39,17 @@ export default (() => {
 				position="relative"
 				z-index="2"
 			>
-				Мы ищем в команду Quarkly{" "}
+				Мы ищем в команду Quarkly
 				<br />
-				<Span color="--secondary">
+				<Span
+					color="--secondary"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
 					IT-Evangelista
 				</Span>
 			</Text>
@@ -303,11 +311,6 @@ export default (() => {
 				right="0px"
 			/>
 		</Section>
-		<Components.Footer>
-			<Override slot="stackItem2">
-				<Override slot="StackItemContent" font="16px --fontFamily-googleSourceSansPro" />
-			</Override>
-		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
